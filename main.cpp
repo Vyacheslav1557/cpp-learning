@@ -13,7 +13,7 @@ int main() {
     brr[0] = "abc";
     brr[1] = "def";
     brr[2] = "ghi";
-    brr[3] = "jkl";
+    brr[100] = "jkl";
     std::cout << "brr: " << brr << "\n";
 
     DynamicArray crr(brr);

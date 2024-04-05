@@ -7,7 +7,7 @@
 
 template<typename T>
 class DynamicArray {
-private:
+protected:
     size_t _size{};
 //    size_t _capacity{1};
     T *_array{};
